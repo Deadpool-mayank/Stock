@@ -6,6 +6,7 @@ Created on Fri Sep 27 14:36:49 2019
 """
 #**************** IMPORT PACKAGES ********************
 from flask import Flask, render_template, request, flash, redirect, url_for
+from flask_talisman import Talisman 
 from alpha_vantage.timeseries import TimeSeries
 import pandas as pd
 import numpy as np
