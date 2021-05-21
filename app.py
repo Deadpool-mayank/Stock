@@ -34,6 +34,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 #***************** FLASK *****************************
 app = Flask(__name__)
+Talisman(app)
 
 #To control caching so as to save and retrieve plot figs on client side
 @app.after_request
